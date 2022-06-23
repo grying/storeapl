@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/storeapl/static/css/main.69793893.css",
+    "main.js": "/storeapl/static/js/main.fc20fc87.js",
+    "static/media/iPhone-13-Pro-Max-silver-1000x1000.png": "/storeapl/static/media/iPhone-13-Pro-Max-silver-1000x1000.5e3148438c25d4fa5c9b.png",
+    "static/media/case-2.png": "/storeapl/static/media/case-2.1b122b5fa834359e5315.png",
+    "static/media/case-3.png": "/storeapl/static/media/case-3.1f7904171bd8e9c9b727.png",
+    "static/media/case-1.png": "/storeapl/static/media/case-1.efb697619a9ca4b806ff.png",
+    "static/media/basket-empty.svg": "/storeapl/static/media/basket-empty.590dda231e4b69fc8c70072a70392b9b.svg",
+    "static/media/cart.svg": "/storeapl/static/media/cart.9096106f004ae06721f47d51008b23a4.svg",
+    "static/media/visa.svg": "/storeapl/static/media/visa.955b00df3efb576dc79d8337cb027a43.svg",
+    "static/media/phone.svg": "/storeapl/static/media/phone.c6030050d8fab39345eb.svg",
+    "static/media/delete-icon.svg": "/storeapl/static/media/delete-icon.16d6f0bc338321c604f5b003ef1c5b3d.svg",
+    "static/media/heard-default.svg": "/storeapl/static/media/heard-default.cc09eb98f66ab9c171129ad172007800.svg",
+    "static/media/pancale.svg": "/storeapl/static/media/pancale.c6ddcc0cea9f236bb37e.svg",
+    "index.html": "/storeapl/index.html",
+    "static/media/heart-active.svg": "/storeapl/static/media/heart-active.fa2e7af57cf277382bd53b3b8ba3eaff.svg",
+    "static/media/star.svg": "/storeapl/static/media/star.537a7eb52333cefb40f11bb348ac6c6f.svg",
+    "static/media/plus.svg": "/storeapl/static/media/plus.11d6bc9a7d17b5a98ea7.svg",
+    "static/media/left-arrow.svg": "/storeapl/static/media/left-arrow.179033c3b391ffdead0988f788c86aa1.svg",
+    "static/media/minus.svg": "/storeapl/static/media/minus.ad238bac167a84c2f284.svg",
+    "main.69793893.css.map": "/storeapl/static/css/main.69793893.css.map",
+    "main.fc20fc87.js.map": "/storeapl/static/js/main.fc20fc87.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69793893.css",
+    "static/js/main.fc20fc87.js"
+  ]
+}
