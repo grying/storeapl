@@ -2,7 +2,7 @@
   "name": "storeapl",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/",
+  "homepage": "https://grying.github.io/storeapl",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.2",
     "@testing-library/jest-dom": "^5.16.4",
@@ -20,6 +20,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -45,6 +47,7 @@
   },
   "devDependencies": {
     "eslint-plugin-react-hooks": "^4.5.0",
+    "gh-pages": "^4.0.0",
     "sass": "^1.52.1"
   }
 }
