@@ -1,24 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+
+import Footer from "./components/footer/footer";
+import Home from "./components/home/Home";
+import Favorite from "./components/favorite/Favorites";
+import Basket from "./components/basket/Basket";
+import Service from "./components/service/Service";
+import Registr from "./components/registr/Registr";
+
+import "./sass/App.scss";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import { Provider } from "react-redux";
+
+import {store} from './redux/store';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+        <Provider store={store}>
+          <div className="wrapper">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/favorites" element={<Favorite  />} />
+              <Route path="/basket" element={<Basket />} />
+              <Route path="/service" element={<Service />} />
+              <Route path="/basket/registr" element={<Registr />} />
+            </Routes>
+            <Footer />
+          </div>
+        </Provider>
+      </BrowserRouter>
+    </>
   );
 }
 

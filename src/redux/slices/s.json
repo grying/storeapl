@@ -1,0 +1,89 @@
+[
+  {
+    "title": "Наушники"
+  },
+  {
+    "name": "Apple BYZ S852I",
+    "price": "2927",
+    "rating": 4.7,
+    "id": 1,
+    "count": 0,
+    "favorite" : false,
+    "img": "https://i.ibb.co/M9ghP2H/1.png"
+  },
+  {
+    "name": "Apple EarPods",
+    "price": "2311",
+    "rating": 4.5,
+    "id": 2,
+    "count": 0,
+    "favorite": false,
+    "img": "https://i.ibb.co/LP24F6n/2.png"
+  },
+  {
+    "name": "Apple EarPods",
+    "price": "2311",
+    "rating": 4.5,
+    "id": 3,
+    "count": 0,
+    "favorite": false,
+    "img": "https://i.ibb.co/MGk23TM/3.png"
+  },
+  {
+    "name": "Apple BYZ S852I",
+    "price": "2927",
+    "rating": 4.7,
+    "id": 4,
+    "count": 0,
+    "favorite": false,
+    "img": "https://i.ibb.co/M9ghP2H/1.png"
+  },
+  {
+    "name": "Apple BYZ S852I",
+    "price": "2927",
+    "rating": 4.7,
+    "favorite": false,
+    "count": 0,
+    "id": 5,
+    "img": "https://i.ibb.co/LP24F6n/2.png"
+  },
+  {
+    "name": "Apple ",
+    "price": "227",
+    "rating": 1.7,
+    "id": 6,
+    "count": 0,
+    "favorite": false,
+    "img": "https://i.ibb.co/MGk23TM/3.png"
+  },
+  {
+    "title": "Беспроводные наушники"
+  },
+  {
+    "name": "Apple AirPods",
+    "price": "9527",
+    "rating": 4.7,
+    "favorite": false,
+    "count": 0,
+    "id": 7,
+    "img": "https://i.ibb.co/8D3M3TQ/11.png"
+  },
+  {
+    "name": "GERLAX GH-04",
+    "price": "6528",
+    "rating": 5,
+    "favorite": false,
+    "count": 0,
+    "id": 8,
+    "img": "https://i.ibb.co/GMjwKmr/12.png"
+  },
+  {
+    "name": "BOROFONE BO4",
+    "price": "7531",
+    "rating": 4.5,
+    "favorite": false,
+    "id": 9,
+    "count": 0,
+    "img": "https://i.ibb.co/ftxsV7R/13.png"
+  }
+]

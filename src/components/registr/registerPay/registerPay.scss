@@ -1,0 +1,59 @@
+.pay {
+  margin-top: 14px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  padding: 15px;
+  margin-bottom: 140px;
+  &__item {
+    display: flex;
+    & + .pay__item {
+      margin-top: 20px;
+    }
+  }
+  &__text {
+    padding-left: 8px;
+  }
+  &__promo {
+    margin-left: 10px;
+    border: none;
+    background-color: none;
+    &::placeholder {
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 18px;
+      color: #838383;
+    }
+  }
+  &__button {
+    margin-top: 20px;
+  }
+  &__total {
+    display: none;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 26px;
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
+  }
+  &__cost {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    color: #000000;
+  }
+}
+
+@media (max-width:640px){
+    .pay{
+        &__total{
+            display: flex;
+        }
+    }
+}

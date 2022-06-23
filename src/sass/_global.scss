@@ -1,0 +1,98 @@
+@import "./variables";
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 23px 0 23px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.number {
+  width: 17px;
+  height: 17px;
+  background-color: #ffa542;
+  position: absolute;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  line-height: 18px;
+  margin-left: 15px;
+  margin-top: -5px;
+}
+
+.active {
+  color: $hover;
+}
+
+.button {
+  background-color: $black;
+  color: #fff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  color: #ffffff;
+}
+
+.input {
+  height: 45px;
+  background: #d6d6d6;
+  border-radius: 15px;
+  border: none;
+  padding-right: 15px;
+  padding-left: 10px;
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+  &::placeholder {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    padding-left: 15px;
+    background-position: right;
+    color: #8e8e8e;
+    background-repeat: no-repeat;
+    background-image: url("../img/pancale.svg");
+  }
+}
+
+.head {
+  display: block;
+}
+.head-page {
+  display: none;
+}
+.display-none {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .head {
+    display: none;
+  }
+  .head-page {
+    display: block;
+  }
+ 
+}
+
+@mixin btn() {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 25px;
+
+  bottom: 34px;
+}
