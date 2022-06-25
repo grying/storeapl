@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/storeapl/static/css/main.07f3976e.css",
-    "main.js": "/storeapl/static/js/main.29eb8f6c.js",
+    "main.js": "/storeapl/static/js/main.284c723d.js",
     "static/media/iPhone-13-Pro-Max-silver-1000x1000.png": "/storeapl/static/media/iPhone-13-Pro-Max-silver-1000x1000.5e3148438c25d4fa5c9b.png",
     "static/media/case-2.png": "/storeapl/static/media/case-2.1b122b5fa834359e5315.png",
     "static/media/case-3.png": "/storeapl/static/media/case-3.1f7904171bd8e9c9b727.png",
@@ -20,10 +20,10 @@
     "static/media/left-arrow.svg": "/storeapl/static/media/left-arrow.179033c3b391ffdead0988f788c86aa1.svg",
     "static/media/minus.svg": "/storeapl/static/media/minus.ad238bac167a84c2f284.svg",
     "main.07f3976e.css.map": "/storeapl/static/css/main.07f3976e.css.map",
-    "main.29eb8f6c.js.map": "/storeapl/static/js/main.29eb8f6c.js.map"
+    "main.284c723d.js.map": "/storeapl/static/js/main.284c723d.js.map"
   },
   "entrypoints": [
     "static/css/main.07f3976e.css",
-    "static/js/main.29eb8f6c.js"
+    "static/js/main.284c723d.js"
   ]
 }
