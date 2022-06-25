@@ -44,7 +44,9 @@
   width: 100%;
   color: #ffffff;
 }
-
+.ab{
+  margin-top: 200px;
+}
 .input {
   height: 45px;
   background: #d6d6d6;
@@ -95,4 +97,7 @@
   padding-right: 25px;
 
   bottom: 34px;
+}
+.button-none{
+  display: none !important;
 }

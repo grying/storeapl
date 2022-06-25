@@ -11,7 +11,7 @@ import {
 
 function ProductCart({ id, title, img, name, price, rating, favorite }) {
    const heart = useSelector((state) => state.favorite.heart);
-   console.log(heart)
+
    
   
   const dispatch = useDispatch();

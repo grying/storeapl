@@ -12,7 +12,7 @@ import { fetchPhone } from "../../redux/slices/phoneSlice";
 function Home() {
   
     const  {items, status} = useSelector((state) => state.phone);
-    console.log(items);
+
 
     const dispatch = useDispatch();
   useEffect(() => {

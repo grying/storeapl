@@ -7,7 +7,7 @@ export const fetchPhone = createAsyncThunk(
     const response = await axios.get(
       "https://629356fb089f87a57abe7594.mockapi.io/items"
     );
-    console.log(response);
+
     return response.data;
   }
 );
@@ -16,7 +16,7 @@ const initialState = {
   items: [],
   status: "loading",
 };
-console.log(initialState.items);
+
 const phoneSlice = createSlice({
   name: "phone",
   initialState,
@@ -27,12 +27,12 @@ const phoneSlice = createSlice({
   },
   extraReducers: {
     [fetchPhone.pending]: (state, action) => {
-      console.log("wait");
+
       state.status = "loading";
       state.items = [];
     },
     [fetchPhone.fulfilled]: (state, action) => {
-      console.log(state);
+
       state.items = action.payload;
       state.status = "ok";
     },
